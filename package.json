@@ -1,0 +1,29 @@
+{
+    "name": "smartbrain",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "gh-pages": "^1.2.0",
+        "react": "^16.4.1",
+        "react-dom": "^16.4.1",
+        "react-particles-js": "^2.2.0",
+        "react-scripts": "1.1.4",
+        "react-tilt": "^0.1.4",
+        "tachyons": "^4.10.0"
+    },
+    "scripts": {
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d build",
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test --env=jsdom",
+        "eject": "react-scripts eject"
+    },
+    "homepage": "https://felipeschei.github.io/smartbrain/",
+    "description": "This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).",
+    "main": "index.js",
+    "devDependencies": {},
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+}
