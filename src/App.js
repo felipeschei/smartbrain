@@ -15,10 +15,19 @@ import Register from './components/Register/Register'
 const particleOptions = {
   particles: {
     number: {
-      value: 150,
+      value: 80,
       density: {
         enable: true,
         value_area: 800
+      }
+    },
+    interactivity: {
+      events: {
+        onresize: {
+          enable: true,
+          density_auto: true,
+          density_area: 400,
+        }
       }
     }
   }
